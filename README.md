@@ -43,6 +43,14 @@ Greenden_Web/
 * Hover effects
 * Responsive grid layout
 
+* ## Responsive Design
+
+The website is designed to provide a smooth experience on different screen sizes using Tailwind CSS responsive utilities.
+
+- Mobile
+- Tablet
+- Desktop
+
 ## Technologies Used
 
 * HTML5
