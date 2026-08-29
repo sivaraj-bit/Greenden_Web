@@ -1,0 +1,268 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <!--Title-->
+    <title>Greenden - Home</title>
+    <!--Favicon Icon-->
+    <link rel="Icon" type="image/png" href="./img/home&favicon/favicon.png">
+    <!-- Tailwindcss Link-->
+    <link rel="stylesheet" href="./src/output.css">
+</head>
+
+<body class="font-sans">
+
+    <!-- Navbar -->
+    <nav class="bg-green-100 p-4 shadow-lg sticky top-0 z-10">
+        <div class="max-w-7xl mx-auto flex items-center justify-between">
+
+            <h1 class="text-2xl font-bold text-green-800">
+                Greenden 🌿
+            </h1>
+
+            <div class="hidden md:flex gap-8 text-green-900 font-medium">
+                <a href="index.html" class="hover:text-green-600 hover:underline">Home</a>
+                <a href="products.html" class="hover:text-green-600 hover:underline ">Products</a>
+                <a href="contact.html" class="hover:text-green-600 hover:underline">Contact</a>
+            </div>
+
+            <!-- Mobile Menu -->
+            <div class="md:hidden">
+                <details class="relative">
+                    <summary class="cursor-pointer text-2xl text-green-800 list-none">
+                        ☰
+                    </summary>
+                    <div class="absolute right-0 mt-3 w-40 bg-white shadow-lg rounded-lg p-4 space-y-3">
+                        <a href="index.html" class="block hover:text-green-600">
+                            Home
+                        </a>
+                        <a href="products.html" class="block hover:text-green-600">
+                            Products
+                        </a>
+                        <a href="contact.html" class="block hover:text-green-600">
+                            Contact
+                        </a>
+                    </div>
+                </details>
+            </div>
+
+        </div>
+    </nav>
+
+    <!-- Hero Section -->
+    <section class="relative min-h-[500px] bg-[url('../img/home-favicon/hero.jpg')] bg-cover bg-center mt-1">
+        <!-- Overlay -->
+        <div class="absolute inset-0 bg-black/30"></div>
+
+        <!-- Hero Content -->
+        <div class="relative max-w-7xl mx-auto px-6 py-16 md:flex items-center gap-10 min-h-125">
+
+            <div class="md:w-1/2">
+
+                <p class="text-white font-semibold mb-3">
+                    We provide you the best plants
+                </p>
+
+                <h2 class="text-4xl md:text-6xl font-bold text-white leading-tight">
+                    Bring Nature Into Your Home
+                </h2>
+
+                <p class="mt-5 text-white font-medium w-full max-w-xl">
+                    Discover beautiful plants and transform your home into
+                    a fresh and peaceful environment.
+                </p>
+
+                <div class="mt-7 flex gap-4">
+
+                    <a href="products.html"
+                       class="bg-green-800 text-white px-6 py-3 rounded-lg hover:bg-green-700">
+                        Shop Now
+                    </a>
+
+                    <a href="contact.html" 
+                        class="border border-white text-white px-6 py-3 rounded-lg hover:bg-white hover:text-green-800 font-bold md:font-normal">
+                        Contact Us
+                    </a>
+
+                </div>
+
+            </div>
+
+        </div>
+
+    </section>
+
+    <!-- Introduction Section -->
+    <section class="py-16 px-6">
+        <div class="max-w-4xl mx-auto text-center">
+
+            <h2 class="text-2xl md:text-3xl font-bold text-green-900">
+                Welcome to Greenden 🌿
+            </h2>
+
+            <p class="mt-5 text-gray-600 leading-relaxed">
+                Greenden is a modern plant website designed to help you
+                discover beautiful plants for your home. We provide a simple
+                and user-friendly experience to explore plants, view popular
+                products, and learn more about bringing nature into your
+                everyday life.
+            </p>
+
+        </div>
+    </section>
+
+    <!-- About Section -->
+    <section class="py-16 px-6">
+
+        <div class="max-w-7xl mx-auto text-center">
+
+            <h2 class="text-2xl md:text-3xl font-bold text-green-900">
+                Why Choose Greenden?
+            </h2>
+
+            <p class="mt-3 text-gray-600">
+                We make it easy to bring natural beauty into your everyday life.
+            </p>
+
+            <div class="grid md:grid-cols-3 gap-8 mt-10">
+
+                <div class="p-6 shadow-md rounded-xl">
+                    <div class="text-4xl">🌱</div>
+
+                    <h3 class="text-xl font-bold mt-4">
+                        Fresh Plants
+                    </h3>
+
+                    <p class="text-gray-600 mt-3">
+                        Carefully selected healthy plants for your home.
+                    </p>
+                </div>
+
+
+                <div class="p-6 shadow-md rounded-xl">
+                    <div class="text-4xl">🚚</div>
+
+                    <h3 class="text-xl font-bold mt-4">
+                        Fast Delivery
+                    </h3>
+
+                    <p class="text-gray-600 mt-3">
+                        Get your favorite plants delivered safely to your door.
+                    </p>
+                </div>
+
+
+                <div class="p-6 shadow-md rounded-xl">
+                    <div class="text-4xl">💚</div>
+
+                    <h3 class="text-xl font-bold mt-4">
+                        Best Quality
+                    </h3>
+
+                    <p class="text-gray-600 mt-3">
+                        Quality plants at affordable prices.
+                    </p>
+                </div>
+
+            </div>
+
+        </div>
+
+    </section>
+
+
+    <!-- Popular Products -->
+    <section class="bg-gray-50 py-16 px-6">
+
+        <div class="max-w-7xl mx-auto">
+
+            <h2 class="text-2xl md:text-3xl font-bold text-green-900 text-center">
+                Popular Plants
+            </h2>
+
+            <div class="grid grid-cols-2 md:grid-cols-4 gap-6 mt-10">
+
+                <!--Popular Plant 1-->
+                <div class="bg-white rounded-xl shadow overflow-hidden transform duration-300 hover:-translate-y-3 cursor-pointer">
+                    <img
+                        src="./img/popular product/popular1.jpg"
+                        class="w-full h-48 object-cover"
+                        alt="Green indoor plant">
+                    <div class="p-4">
+                        <h3 class="font-bold">Green Plant</h3>
+                        <p class="text-green-700">₹499</p>
+                    </div>
+                </div>
+
+                <!--Popular Plant 2-->
+                <div class="bg-white rounded-xl shadow overflow-hidden transform duration-300 hover:-translate-y-3 cursor-pointer">
+                    <img
+                        src="./img/popular product/popular2.jpg"
+                        class="w-full h-48 object-cover"
+                        alt="Indoor Plant">
+                    <div class="p-4">
+                        <h3 class="font-bold">Indoor Plant</h3>
+                        <p class="text-green-700">₹599</p>
+                    </div>
+                </div>
+
+                <!--Popular Plant 3-->
+                <div class="bg-white rounded-xl shadow overflow-hidden transform duration-300 hover:-translate-y-3 cursor-pointer ">
+                    <img
+                        src="./img/popular product/popular3.jpg"
+                        class="w-full h-48 object-cover"
+                        alt="Small Plant">
+                    <div class="p-4">
+                        <h3 class="font-bold">Small Plant</h3>
+                        <p class="text-green-700">₹399</p>
+                    </div>
+                </div>
+
+                <!--Popular Plant 4-->
+                <div class="bg-white rounded-xl shadow overflow-hidden transform duration-300 hover:-translate-y-3 cursor-pointer">
+                    <img
+                        src="./img/popular product/popular4.jpg"
+                        class="w-full h-48 object-cover"
+                        alt="Flower Plant">
+                    <div class="p-4">
+                        <h3 class="font-bold">Flower Plant</h3>
+                        <p class="text-green-700">₹699</p>
+                    </div>
+                </div>
+
+            </div>
+
+        </div>
+
+    </section>
+
+   <!--Footer-->
+   <footer class="bg-green-900 text-white py-10 px-6">
+
+    <div class="max-w-7xl mx-auto text-center">
+
+        <h2 class="text-2xl font-bold">
+            Greenden 🌿
+        </h2>
+
+        <p class="mt-3 text-green-100">
+            Bring nature closer to your home.
+        </p>
+
+        <div class="flex justify-center gap-6 mt-5">
+            <a href="index.html" class="hover:text-green-300">Home</a>
+            <a href="products.html" class="hover:text-green-300">Products</a>
+            <a href="contact.html" class="hover:text-green-300">Contact</a>
+        </div>
+
+        <p class="border-t border-green-700 mt-6 pt-5 text-sm text-green-200">
+            © 2026 Greenden. All Rights Reserved.
+        </p>
+
+    </div>
+
+</footer>
+
+</body>
+</html>
