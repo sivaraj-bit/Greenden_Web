@@ -42,12 +42,14 @@
 
              <!-- Mobile Menu -->
             <div class="md:hidden">
-                <details class="relative">
-                    <summary class="cursor-pointer text-2xl text-green-800 list-none">
+                <div class="relative">
+                    <div class="cursor-pointer text-2xl text-green-800 list-none" id="mobile-btn">
                         ☰
-                    </summary>
-                    <div class="absolute right-0 mt-3 w-40 bg-white shadow-lg rounded-lg p-4 space-y-3">
-                        <a href="index.html" class="block hover:text-green-600">
+                    </div>
+
+                    <div class="absolute right-0 mt-3 w-40 bg-white shadow-lg rounded-lg p-4 space-y-3  hidden" id="mobile">
+                        <p class="absolute cursor-pointer" style="right: 10px; top: 0%; margin: 5px;" id="close-btn">x</p>
+                        <a href="index.html" class="block hover:text-green-600 mt-3">
                             Home
                         </a>
                         <a href="products.html" class="block hover:text-green-600">
@@ -57,7 +59,7 @@
                             Contact
                         </a>
                     </div>
-                </details>
+                </div>
             </div>
 
 
@@ -217,6 +219,9 @@
     </div>
 
 </footer>
+
+<!-- java Script-->
+ <script src="/js/contact.js"></script>
 
 </body>
 </html>
